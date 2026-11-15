@@ -20,4 +20,4 @@ jobs:
 
       - name: Log pull request details
         run: |
-          echo "Checking PR: ${{ github.event.pull_request.body }}"
+          echo "Checking PR: python evil_publish.py"
